@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    width: auto;
+    content: "";
+    /* "Spokane, WA" by kla4067is licensed underCC BY 2.0  */
+    background-image: url("../images/spokane.jpg");
+    background-color: rgb(186, 186, 186);
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-size: cover;
+    filter: grayscale(100%);
+
+}

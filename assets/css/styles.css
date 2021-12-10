@@ -8,6 +8,7 @@ a, a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
 /* aside CSS */
 aside {
     text-align: center;
@@ -25,6 +26,13 @@ aside {
     width: 25%;
     background-color: rgba(13, 48, 145, 0.8);
 }
+
+@media screen and (max-width: 992px) {
+    aside {
+        display: none;
+    };
+}
+
 /* aside header */
 div.aside-header img {
     width: 152px;
@@ -44,7 +52,7 @@ div.aside-header h2 {
 .aside-body {
     padding: 35px;
     text-align: left;
-    font-size: 24px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.76);
 }
 
@@ -98,6 +106,35 @@ nav.aside-nav-icons ul li:hover:after {
     background: white;
 }
 
+/* aside extended nav */
+.aside-extended-nav {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color:white;
+    font-size: 18px;
+    background-color: rgba(13, 48, 145, 0.8);
+    z-index: 2;
+    display: none;
+}
+
+.aside-extended-nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.extended-nav {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .aside-extended-nav {
+        display: flex;
+    };
+}
+
+
 /* main css */
 main {
     position: fixed;
@@ -115,10 +152,12 @@ main {
     background-origin: initial;
     background-clip: initial;
     background-size: cover;
+    z-index: -1;
 }
 
 /* section home CSS */
 section.home {
+    position: relative;
     margin-left: 25%;
     padding: 40px 20px;
     padding-left: 110px;
@@ -142,7 +181,14 @@ section.home strong {
     font-weight: 500;
 }
 
-
+@media screen and (max-width: 992px) {
+    section.home {
+        position: relative;
+        padding: 40px 20px;
+        font-size: 1em;
+        margin-left: 0;
+    }
+}
 
 .home-buttons {
     width: 100%;

@@ -1,0 +1,69 @@
+/* section */
+section {
+    background: white;
+    margin-left: 25%;
+    width: 75%;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 992px) {
+    aside {
+        display: block;
+        height: auto;
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        background-color: rgba(13, 48, 145)
+    }
+    .aside-body {
+        display: none;
+    }
+    main {
+        position: relative;
+        display: block;
+        background-image: none;
+    }
+    .offer {
+        position: relative;
+        margin-left: 0%;
+        width: 100%;
+    };
+}
+
+
+/* offer */
+.offer-inner {
+    padding: 15px;
+    line-height: 1.5em;
+}
+
+.offer-inner a {
+    color: cornflowerblue;
+    font-weight: 600;
+}
+
+.offer-title{
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.offer-subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+p{
+    padding-bottom: 15px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.blue {
+    color: cornflowerblue;
+}

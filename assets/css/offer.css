@@ -67,3 +67,17 @@ strong {
 .blue {
     color: cornflowerblue;
 }
+
+li.current:before {
+    content:" ";
+    display:block;
+    position:absolute;
+    width:0;
+    height:0;
+    border-top:9px solid transparent;
+    border-bottom:9px solid transparent;
+    border-right:8px solid #fff;
+    top:auto;
+    left:auto;
+    right:0
+}

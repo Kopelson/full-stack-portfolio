@@ -56,5 +56,10 @@ section {
     padding-bottom: 15px;
 }
 
-
+.contact-info-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(13, 48, 145);
+}
 

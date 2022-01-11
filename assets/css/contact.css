@@ -23,7 +23,7 @@ section {
         display: block;
         background-image: none;
     }
-    .offer {
+    .contact {
         position: relative;
         margin-left: 0%;
         width: 100%;
@@ -31,28 +31,30 @@ section {
 }
 
 
-/* offer */
-.offer-inner {
+/* contact */
+.contact-inner {
     padding: 15px;
     line-height: 1.5em;
 }
 
-.offer-inner a {
+.contact-inner a {
     color: cornflowerblue;
     font-weight: 600;
 }
 
-.offer-title{
+.contact-title{
     font-size: 32px;
     font-weight: 700;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.offer-subtitle{
+.contact-subtitle{
     font-size: 24px;
     font-weight: 400;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+
 

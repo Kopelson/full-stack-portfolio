@@ -246,4 +246,34 @@ section.home strong {
     border-color: white;
 }
 
+/* aside li arrow */
+li.current:before {
+    content:" ";
+    display:block;
+    position:absolute;
+    width:0;
+    height:0;
+    border-top:9px solid transparent;
+    border-bottom:9px solid transparent;
+    border-right:8px solid #fff;
+    top:auto;
+    left:auto;
+    right:0
+}
+
+/* general styling */
+.blue {
+    color: cornflowerblue;
+}
+
+p{
+    padding-bottom: 15px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+
+
 @keyframes fadeIn{0%,50%{opacity:0}to{opacity:1}};
